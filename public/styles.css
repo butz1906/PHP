@@ -1,0 +1,258 @@
+nav ul li img {
+    width: 20%;
+}
+
+.titre {
+    width: 40%;
+}
+
+.d-flex {
+    display: flex !important;
+    flex-wrap: wrap;
+}
+
+img.cover {
+    width: 100%;
+}
+
+.playstation {
+    background: #003697;
+}
+
+.playstationtext {
+    background: #003697;
+    padding: 3em;
+}
+
+.switch {
+    background: #E60012;
+}
+
+.switchtext {
+    background: #E60012;
+    padding: 3em;
+}
+
+.bg-dark {
+    padding: 0;
+
+}
+
+h2.titreSwitch {
+    background: linear-gradient(#212529, #E60012);
+    padding-top: 2em;
+    margin-bottom: 0;
+}
+
+h2.titrePlaystation {
+    background: linear-gradient(#212529, #003697);
+    padding-top: 2em;
+    margin-bottom: 0;
+}
+
+footer.piedplaystation {
+    background: linear-gradient(#003697, #212529);
+    padding-top: 3.3em;
+    text-align: center;
+}
+
+footer.piedswitch {
+    background: linear-gradient(#E60012, #212529);
+    padding-top: 3.3em;
+    text-align: center;
+}
+
+.titre.d-flex.list-group {
+    margin-top: 2em;
+    border: 0.2em solid #212529;
+    background: #212529;
+}
+
+button#backontop {
+    font-family: 'Open Sans';
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.covertest {
+    width: 87%;
+    margin-top: 2em;
+    border: 1px solid black;
+}
+
+.container.bg-dark {
+    padding: 0;
+}
+
+img.imagetest {
+    width: 48%;
+    border: 1px solid black;
+    margin: 2em 0.2em;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.listejeux {
+    display: flex !important;
+    justify-content: space-around !important;
+}
+
+h3 {
+    text-decoration: underline;
+    font-weight: bold !important;
+}
+
+footer {
+    text-align: center;
+}
+
+h4 {
+    margin-top: 2em !important;
+}
+
+.picture {
+    text-align: center
+}
+
+.titre.d-flex.list-group {
+    align-self: center;
+    text-align: center;
+}
+
+h2.textbacklog.text-decoration-none.text-center.text-light {
+    padding-top: 2em !important;
+}
+
+iframe {
+    margin: 2em auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.video {
+    width: 100%;
+    height: 36em;
+    padding-bottom: 3em;
+}
+
+button.btn.amazon {
+    background-color: #FFA41C;
+}
+
+button a {
+    color: black;
+    font-weight: bold;
+}
+
+.d-flex.bouton {
+    justify-content: center;
+    margin-top: 2em;
+}
+
+img.eshop {
+    width: 13%;
+}
+
+img.store {
+    width: 27%;
+}
+
+.page {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3em;
+}
+
+ul#annees {
+    max-height: 47vh;
+}
+
+li.nav-item {
+    margin: auto;
+    text-align: center;
+}
+
+.picturepantheon {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+.picturepantheon img.imagetest{
+        width: 24em;
+}
+
+div.jeuxpantheon {
+    padding: 1em;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+    img.imagetest {
+        width: 100%
+    }
+
+    .titre.d-flex.list-group {
+        justify-content: space-between;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    ul#annees {
+        max-height: 78vh;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+    iframe {
+        width: 100%;
+    }
+
+    .video {
+        height: 40em;
+    }
+}
+
+@media only screen and (min-device-width : 436px) and (max-device-width : 768px) {
+    iframe {
+        width: 100%;
+        height: 16em;
+    }
+
+    h5.text-light {
+        font-size: .66em;
+    }
+
+    .video {
+        height: 18em
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 435px) {
+    iframe {
+        width: 100%;
+        height: 12em;
+    }
+
+    .video {
+        height: 14em;
+    }
+
+    h5.text-light {
+        font-size: .97em;
+    }
+
+    h1.titrebacklog {
+        font-size: 1.2em !important;
+    }
+}
